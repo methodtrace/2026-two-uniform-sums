@@ -1,0 +1,41 @@
+{
+ "all_checks_passed": true,
+ "checks": {
+  "convex_order": true,
+  "folded_order": true,
+  "grid_facet": true,
+  "mean_one": true,
+  "single_step": true
+ },
+ "convex_order": {
+  "piece_minima": [
+   "0",
+   "1/20",
+   "0"
+  ]
+ },
+ "folded_order": {
+  "folded_atoms": [
+   "0",
+   "2/5",
+   "3/5",
+   "1"
+  ],
+  "slack_at_atoms": [
+   "0",
+   "1/50",
+   "1/50",
+   "0"
+  ]
+ },
+ "grid_k10": {
+  "certificate": "rank",
+  "excess": "1",
+  "facet": true
+ },
+ "single_step": {
+  "eta": "3/10",
+  "lhs": "3/2",
+  "rhs": "7/5"
+ }
+}

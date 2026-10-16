@@ -1,0 +1,12 @@
+{
+ "all_checks_passed": true,
+ "checks": {
+  "corollary": true,
+  "vertex_rule": true
+ },
+ "disagreements": 0,
+ "infeasible_windows": 77,
+ "max_discrepancy": 0.0,
+ "support_function_comparisons": 1104,
+ "windows": 215
+}

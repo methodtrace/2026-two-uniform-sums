@@ -1,0 +1,136 @@
+{
+ "all_checks_passed": true,
+ "chain": {
+  "2": {
+   "max_denominator": 128,
+   "pairs": 3600,
+   "points": 18
+  },
+  "3": {
+   "max_denominator": 296,
+   "pairs": 3600,
+   "points": 18
+  },
+  "4": {
+   "max_denominator": 3720,
+   "pairs": 3600,
+   "points": 18
+  },
+  "5": {
+   "max_denominator": 16380,
+   "pairs": 3600,
+   "points": 18
+  },
+  "6": {
+   "max_denominator": 3816,
+   "pairs": 3600,
+   "points": 18
+  },
+  "7": {
+   "max_denominator": 3976,
+   "pairs": 3600,
+   "points": 18
+  },
+  "8": {
+   "max_denominator": 6732,
+   "pairs": 3600,
+   "points": 18
+  }
+ },
+ "checks": {
+  "chain": true,
+  "minorant_random": true,
+  "minorant_staircases": true,
+  "negative_control": true,
+  "statement": true
+ },
+ "minorant_random": {
+  "equality": 529,
+  "potentials": 4000
+ },
+ "minorant_staircases": {
+  "kmax": 10,
+  "potentials": 2046
+ },
+ "negative_control": {
+  "3": {
+   "duality_consistent": true,
+   "example": [
+    "0",
+    "3/2",
+    "0",
+    "3/2",
+    "0"
+   ],
+   "outside": 1,
+   "vertices": 5
+  },
+  "4": {
+   "duality_consistent": true,
+   "example": [
+    "0",
+    "0",
+    "8/3",
+    "0",
+    "0",
+    "4/3",
+    "0"
+   ],
+   "outside": 4,
+   "vertices": 13
+  },
+  "5": {
+   "duality_consistent": true,
+   "example": [
+    "0",
+    "0",
+    "0",
+    "5/2",
+    "0",
+    "5/2",
+    "0",
+    "0",
+    "0"
+   ],
+   "outside": 15,
+   "vertices": 33
+  }
+ },
+ "statement": {
+  "rows": {
+   "2": {
+    "agree": true,
+    "even_hinges_give_all_integer_hinges": true,
+    "necessity": true,
+    "nonintegral": 1,
+    "outside": 0,
+    "vertices": 2
+   },
+   "3": {
+    "agree": true,
+    "even_hinges_give_all_integer_hinges": true,
+    "necessity": true,
+    "nonintegral": 5,
+    "outside": 0,
+    "vertices": 7
+   },
+   "4": {
+    "agree": true,
+    "even_hinges_give_all_integer_hinges": true,
+    "necessity": true,
+    "nonintegral": 40,
+    "outside": 0,
+    "vertices": 44
+   },
+   "5": {
+    "agree": true,
+    "even_hinges_give_all_integer_hinges": true,
+    "necessity": true,
+    "nonintegral": 249,
+    "outside": 0,
+    "vertices": 258
+   }
+  },
+  "skipped": []
+ }
+}

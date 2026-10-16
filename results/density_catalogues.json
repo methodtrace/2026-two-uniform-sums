@@ -1,0 +1,53 @@
+{
+ "all_checks_passed": true,
+ "args": {
+  "catalogues": "K08,K12,two_step_K48",
+  "full": false
+ },
+ "checks": {
+  "K08": true,
+  "K12": true,
+  "two_step_K48": true
+ },
+ "results": {
+  "K08": {
+   "K": 8,
+   "complete": true,
+   "failures": [],
+   "file": "density_two_certificates_K08.jsonl.gz",
+   "m": 4,
+   "min_margin": "7/512",
+   "min_margin_at": [
+    6,
+    7
+   ],
+   "records": 120
+  },
+  "K12": {
+   "K": 12,
+   "complete": true,
+   "failures": [],
+   "file": "density_two_certificates_K12.jsonl.gz",
+   "m": 4,
+   "min_margin": "7/768",
+   "min_margin_at": [
+    10,
+    11
+   ],
+   "records": 2036
+  },
+  "two_step_K48": {
+   "K": 48,
+   "complete": true,
+   "failures": [],
+   "file": "density_two_certificates_two_step_K48.jsonl.gz",
+   "m": 4,
+   "min_margin": "7/3072",
+   "min_margin_at": [
+    46,
+    47
+   ],
+   "records": 1081
+  }
+ }
+}

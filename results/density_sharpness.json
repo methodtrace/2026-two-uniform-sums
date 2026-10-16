@@ -1,0 +1,199 @@
+{
+ "all_checks_passed": true,
+ "c_at_most_2": {
+  "1": "-1/6",
+  "2": "0",
+  "3/2": "-1/18"
+ },
+ "checks": {
+  "c_at_most_2": true,
+  "float_experiment": true,
+  "prop_densitysharp": true,
+  "symbolic": true
+ },
+ "exact": {
+  "10": {
+   "D(1)": "19/240",
+   "H": [
+    "41/1440",
+    "41/1440"
+   ],
+   "convex_order": true,
+   "folded_order": true,
+   "interval_order": true,
+   "mass_halves": true,
+   "mean_one": true,
+   "positions": true,
+   "violation": "2/15"
+  },
+  "1000": {
+   "D(1)": "1999/24000",
+   "H": [
+    "4001/144000",
+    "4001/144000"
+   ],
+   "convex_order": true,
+   "folded_order": true,
+   "interval_order": true,
+   "mass_halves": true,
+   "mean_one": true,
+   "positions": true,
+   "violation": "499/3000"
+  },
+  "2001/1000": {
+   "D(1)": "1501/24012",
+   "H": [
+    "2251/72036",
+    "2251/72036"
+   ],
+   "convex_order": true,
+   "folded_order": true,
+   "interval_order": true,
+   "mass_halves": true,
+   "mean_one": true,
+   "positions": true,
+   "violation": "1/12006"
+  },
+  "201/100": {
+   "D(1)": "151/2412",
+   "H": [
+    "113/3618",
+    "113/3618"
+   ],
+   "convex_order": true,
+   "folded_order": true,
+   "interval_order": true,
+   "mass_halves": true,
+   "mean_one": true,
+   "positions": true,
+   "violation": "1/1206"
+  },
+  "21/10": {
+   "D(1)": "4/63",
+   "H": [
+    "47/1512",
+    "47/1512"
+   ],
+   "convex_order": true,
+   "folded_order": true,
+   "interval_order": true,
+   "mass_halves": true,
+   "mean_one": true,
+   "positions": true,
+   "violation": "1/126"
+  },
+  "3": {
+   "D(1)": "5/72",
+   "H": [
+    "13/432",
+    "13/432"
+   ],
+   "convex_order": true,
+   "folded_order": true,
+   "interval_order": true,
+   "mass_halves": true,
+   "mean_one": true,
+   "positions": true,
+   "violation": "1/18"
+  },
+  "4": {
+   "D(1)": "7/96",
+   "H": [
+    "17/576",
+    "17/576"
+   ],
+   "convex_order": true,
+   "folded_order": true,
+   "interval_order": true,
+   "mass_halves": true,
+   "mean_one": true,
+   "positions": true,
+   "violation": "1/12"
+  },
+  "5": {
+   "D(1)": "3/40",
+   "H": [
+    "7/240",
+    "7/240"
+   ],
+   "convex_order": true,
+   "folded_order": true,
+   "interval_order": true,
+   "mass_halves": true,
+   "mean_one": true,
+   "positions": true,
+   "violation": "1/10"
+  },
+  "5/2": {
+   "D(1)": "1/15",
+   "H": [
+    "11/360",
+    "11/360"
+   ],
+   "convex_order": true,
+   "folded_order": true,
+   "interval_order": true,
+   "mass_halves": true,
+   "mean_one": true,
+   "positions": true,
+   "violation": "1/30"
+  },
+  "50": {
+   "D(1)": "33/400",
+   "H": [
+    "67/2400",
+    "67/2400"
+   ],
+   "convex_order": true,
+   "folded_order": true,
+   "interval_order": true,
+   "mass_halves": true,
+   "mean_one": true,
+   "positions": true,
+   "violation": "4/25"
+  },
+  "7/3": {
+   "D(1)": "11/168",
+   "H": [
+    "31/1008",
+    "31/1008"
+   ],
+   "convex_order": true,
+   "folded_order": true,
+   "interval_order": true,
+   "mass_halves": true,
+   "mean_one": true,
+   "positions": true,
+   "violation": "1/42"
+  },
+  "8": {
+   "D(1)": "5/64",
+   "H": [
+    "11/384",
+    "11/384"
+   ],
+   "convex_order": true,
+   "folded_order": true,
+   "interval_order": true,
+   "mass_halves": true,
+   "mean_one": true,
+   "positions": true,
+   "violation": "1/8"
+  }
+ },
+ "float_experiment": {
+  "cells": 40,
+  "grid": 20,
+  "max_violation": {
+   "1.5": {
+    "convex_order": -0.0109375
+   },
+   "2.0": {
+    "convex_order": 0.0
+   },
+   "2.5": {
+    "convex_order": 0.03125
+   }
+  }
+ }
+}

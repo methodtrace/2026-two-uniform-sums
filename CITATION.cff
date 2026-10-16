@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Cite the associated manuscript for mathematical statements and this computational artifact for its code and data."
+type: software
+doi: 10.5281/zenodo.23231387
+version: 1.0.0
+title: "Sums of two dependent uniform random variables: a characterization by joint tail bounds"
+authors:
+  - family-names: Chaudhary
+    given-names: Prashant
+    orcid: "https://orcid.org/0009-0001-1980-109X"
+    affiliation: "Independent Researcher, San Francisco Bay Area, CA, USA"
+  - family-names: Khandelwal
+    given-names: Kapil
+    orcid: "https://orcid.org/0000-0002-5748-6019"
+    affiliation: "Department of Civil and Environmental Engineering and Earth Sciences, University of Notre Dame, Notre Dame, IN, USA"
+abstract: "Exact code and data for the computational statements of the paper: the lattice reduction of the aggregation set of two uniforms and its windows, the doubly stochastic X-ray polytope on the grid, laws with small atoms, tail-sum inequalities and their step counts, laws with a bounded density, and corrections to Mao, Wang and Wang (2019)."
+keywords:
+  - doubly stochastic matrices
+  - X-ray polytope
+  - joint tail bounds
+  - convex order
+  - dependence uncertainty
+  - exact computation
+license:
+  - Apache-2.0
+  - CC-BY-4.0

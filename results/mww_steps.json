@@ -1,0 +1,35 @@
+{
+ "all_checks_passed": true,
+ "asymmetric": {
+  "max_violation": {
+   "1": [
+    "0",
+    "0"
+   ],
+   "2": [
+    "0",
+    "0"
+   ],
+   "3": [
+    "3/560",
+    "3/560"
+   ]
+  },
+  "mean": "1",
+  "single_step_min_slack": "0"
+ },
+ "checks": {
+  "asymmetric": true,
+  "example": true,
+  "three_point": true,
+  "two_point": true
+ },
+ "symmetric_three_point": {
+  "laws": 7575,
+  "mismatches": 0
+ },
+ "two_point": {
+  "failures": 0,
+  "laws": 3626
+ }
+}

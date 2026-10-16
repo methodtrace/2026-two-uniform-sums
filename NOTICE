@@ -1,0 +1,5 @@
+Copyright 2026 Prashant Chaudhary and Kapil Khandelwal
+
+Source code: Apache License 2.0 (LICENSE).
+Data in data/ and result files in results/: Creative Commons Attribution 4.0 (LICENSE-DATA).
+No third-party code is bundled. The code uses the third-party packages listed in requirements.txt (and optionally pycddlib), installed separately.

@@ -1,0 +1,64 @@
+{
+ "all_checks_passed": true,
+ "args": {
+  "full": false,
+  "rmax": 8
+ },
+ "checks": {
+  "certificate": true,
+  "perturbation": true,
+  "sharpness": true
+ },
+ "results": {
+  "certificate": {
+   "cases": 320,
+   "failures": [],
+   "rmax": 8
+  },
+  "perturbation": {
+   "cases": 1000
+  },
+  "sharpness": {
+   "examples": [
+    {
+     "c": "201/100",
+     "min_convex_order_gap": "0",
+     "r": 1,
+     "violation": "1/1206"
+    },
+    {
+     "c": "3",
+     "min_convex_order_gap": "0",
+     "r": 1,
+     "violation": "1/18"
+    },
+    {
+     "c": "5",
+     "min_convex_order_gap": "0",
+     "r": 1,
+     "violation": "1/10"
+    },
+    {
+     "c": "301/100",
+     "min_convex_order_gap": "0",
+     "r": 2,
+     "violation": "1/3010"
+    },
+    {
+     "c": "4",
+     "min_convex_order_gap": "0",
+     "r": 2,
+     "violation": "1/40"
+    },
+    {
+     "c": "7",
+     "min_convex_order_gap": "0",
+     "r": 2,
+     "violation": "2/35"
+    }
+   ],
+   "failures": [],
+   "laws": 24
+  }
+ }
+}

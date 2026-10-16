@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dsxray"
+version = "0"
+description = "Exact computations for sums of two dependent uniform random variables: a characterization by joint tail bounds"
+requires-python = ">=3.12"
+dependencies = ["numpy", "scipy"]
+license = {text = "Apache-2.0"}
+
+[project.optional-dependencies]
+cdd = ["pycddlib-standalone"]
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

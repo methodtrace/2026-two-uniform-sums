@@ -1,0 +1,30 @@
+{
+ "all_checks_passed": true,
+ "checks": {
+  "counts": true
+ },
+ "distinct_histograms": [
+  1,
+  2,
+  5,
+  8,
+  12,
+  17,
+  24,
+  33,
+  43,
+  54
+ ],
+ "vertex_counts": [
+  1,
+  2,
+  5,
+  5,
+  9,
+  6,
+  9,
+  9,
+  9,
+  10
+ ]
+}

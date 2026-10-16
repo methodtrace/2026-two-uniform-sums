@@ -1,0 +1,62 @@
+{
+ "all_checks_passed": true,
+ "checks": {
+  "law": true,
+  "part_a": true,
+  "part_b": true,
+  "part_c": true
+ },
+ "part_a": {
+  "I_u_over_k": "1/12",
+  "affine_dimension": 8,
+  "certificate": "rank",
+  "facet": true,
+  "height": 2,
+  "lhs": "53/12",
+  "ray": true,
+  "rhs": "13/3",
+  "tight_permutations": 25,
+  "xi": [
+   "1/3",
+   "1/2",
+   "5/6",
+   "1",
+   "4/3",
+   "4/3",
+   "5/3",
+   "5/3"
+  ]
+ },
+ "part_b": {
+  "12": {
+   "max_lhs_minus_rhs": 0,
+   "step_sets": 2048,
+   "violated": 0
+  },
+  "18": {
+   "max_lhs_minus_rhs": 0,
+   "step_sets": 131072,
+   "violated": 0
+  },
+  "24": {
+   "max_lhs_minus_rhs": 0,
+   "step_sets": 8388608,
+   "violated": 0
+  },
+  "6": {
+   "max_lhs_minus_rhs": 0,
+   "step_sets": 32,
+   "violated": 0
+  }
+ },
+ "part_c": {
+  "I_uJ_over_K": "1/36",
+  "thresholds": [
+   "1/6",
+   "1/3",
+   "23/36",
+   "2/3"
+  ],
+  "violation": "1/36"
+ }
+}

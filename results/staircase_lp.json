@@ -1,0 +1,55 @@
+{
+ "all_checks_passed": true,
+ "checks": {
+  "lem_counting": true,
+  "lem_reflectsteps": true,
+  "lem_tailsgen": true,
+  "prop_asym_example": true,
+  "prop_asym_two_steps": true,
+  "rem_multiplicity": true,
+  "thm_threepoint_lp": true,
+  "thm_twopoint_lp": true
+ },
+ "lem_tailsgen": {
+  "counting_lemma_failures": 0,
+  "formula_mismatches": 0,
+  "pairs": 34086
+ },
+ "prop_asym": {
+  "lhs": "317/80",
+  "rhs": "277/70",
+  "supremum_by_r": {
+   "1": {
+    "law": "0",
+    "reflection": "0",
+    "second_program_law": "0",
+    "second_program_reflection": "0"
+   },
+   "2": {
+    "law": "0",
+    "reflection": "0",
+    "second_program_law": "0",
+    "second_program_reflection": "0"
+   },
+   "3": {
+    "law": "3/560",
+    "reflection": "3/560",
+    "second_program_law": "3/560",
+    "second_program_reflection": "3/560"
+   }
+  },
+  "values_at_atoms": [
+   2,
+   3,
+   4
+  ],
+  "xi": [
+   "3/140",
+   "209/560",
+   "29/40",
+   "283/280",
+   "109/80",
+   "923/560"
+  ]
+ }
+}

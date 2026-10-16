@@ -1,0 +1,31 @@
+{
+ "all_checks_passed": true,
+ "args": {
+  "denominator": 40,
+  "full": false
+ },
+ "checks": {
+  "brute_force_N": true,
+  "constant_attained": true,
+  "symbolic_identities": true,
+  "two_step_grid": true
+ },
+ "results": {
+  "grid": {
+   "K": 40,
+   "cases": {
+    "A": 317,
+    "B": 63,
+    "C": 361
+   },
+   "failures": [],
+   "min_margin": "1/360",
+   "min_margin_at": [
+    "1/4",
+    "39/40"
+   ],
+   "min_margin_over_min_gap": "1/21",
+   "pairs": 741
+  }
+ }
+}

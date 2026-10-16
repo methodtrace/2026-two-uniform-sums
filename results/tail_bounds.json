@@ -1,0 +1,48 @@
+{
+ "all_checks_passed": true,
+ "checks": {
+  "counting_lemma": true,
+  "remark_notsharp": true,
+  "t_r": true,
+  "three_point_family": true,
+  "two_point_exact_lp": true,
+  "two_point_lower": true,
+  "two_point_upper": true
+ },
+ "counting_lemma": {
+  "failures": 0,
+  "pairs": 83066
+ },
+ "t_r": {
+  "r=2, b=1/5": "1/5",
+  "r=2, b=1/6": "0",
+  "r=2, b=2/11": "1/11",
+  "r=2, b=2/13": "0",
+  "r=2, b=3/13": "1/13",
+  "r=2, b=3/19": "0",
+  "r=3, b=1/7": "1/7",
+  "r=3, b=1/8": "0",
+  "r=3, b=1/9": "0",
+  "r=3, b=2/13": "1/13",
+  "r=3, b=2/15": "1/15",
+  "r=3, b=2/17": "0",
+  "r=3, b=3/23": "1/23"
+ },
+ "three_point_family": {
+  "failures": 0,
+  "spacings": 4992
+ },
+ "two_point_exact_lp": {
+  "failures": 0,
+  "laws": 75
+ },
+ "two_point_lower": {
+  "staircases": 16000,
+  "violations": 0
+ },
+ "two_point_upper": {
+  "failures": 0,
+  "laws": 1482,
+  "violation_equal_to_bound": 1482
+ }
+}

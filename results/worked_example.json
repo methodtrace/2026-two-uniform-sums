@@ -1,0 +1,55 @@
+{
+ "all_checks_passed": true,
+ "checks": {
+  "convex_order": true,
+  "folded_evaluated": true,
+  "mass_mean": true,
+  "single_step_max": true,
+  "single_steps_hold": true,
+  "staircase": true
+ },
+ "convex_order": {
+  "argmin": "0",
+  "min_gap": "0"
+ },
+ "folded_condition": {
+  "argmin": "0",
+  "holds": true,
+  "min_slack": "0",
+  "tail_bounds_agrees": true
+ },
+ "single_step": {
+  "argmax": "47/80",
+  "breakpoints": {
+   "127/160": "-13/80",
+   "13/20": "-9/20",
+   "19/80": "-21/40",
+   "33/160": "-37/80",
+   "33/40": "-7/20",
+   "33/80": "-17/40",
+   "47/80": "-3/40",
+   "61/160": "-19/80",
+   "7/40": "-3/20",
+   "99/160": "-31/80"
+  },
+  "limit_eta_to_0": "-1/2",
+  "max_on_(0,33/40]": "-3/40",
+  "sup_attained": false,
+  "sup_on_(0,1)": "0"
+ },
+ "staircase": {
+  "lhs": "5/2",
+  "rhs": "99/40",
+  "thresholds": [
+   "7/40",
+   "47/80"
+  ],
+  "violation": "1/40",
+  "xi": [
+   "7/20",
+   "61/80",
+   "47/40",
+   "127/80"
+  ]
+ }
+}

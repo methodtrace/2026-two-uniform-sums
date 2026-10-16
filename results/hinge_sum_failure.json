@@ -1,0 +1,37 @@
+{
+ "all_checks_passed": true,
+ "args": {
+  "full": false
+ },
+ "checks": {
+  "hinge_sum_excess": true,
+  "staircase_certified": true
+ },
+ "results": {
+  "catalogue_margin": "406751/2061312",
+  "hinge_sum": {
+   "budget": "11/2",
+   "excess": "45889/39312",
+   "jumps": [
+    "1/4",
+    "3/8",
+    "5/8",
+    "3/4",
+    "1",
+    "9/8",
+    "5/4",
+    "3/2",
+    "13/8",
+    "7/4"
+   ],
+   "thresholds": [
+    "1/8",
+    "1/4",
+    "1/2",
+    "5/8",
+    "3/4"
+   ],
+   "value": "262105/39312"
+  }
+ }
+}

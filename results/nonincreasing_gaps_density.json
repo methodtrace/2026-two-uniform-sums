@@ -1,0 +1,20 @@
+{
+ "all_checks_passed": true,
+ "args": {
+  "full": false,
+  "rmax": 5
+ },
+ "checks": {
+  "nonincreasing_gaps": true,
+  "single_step_case": true
+ },
+ "results": {
+  "sweep": {
+   "cap_two_depth_two_or_more": 363,
+   "cases": 1875,
+   "failures": [],
+   "gap_patterns": 125,
+   "rmax": 5
+  }
+ }
+}

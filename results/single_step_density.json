@@ -1,0 +1,108 @@
+{
+ "all_checks_passed": true,
+ "args": {
+  "float_grid": 20,
+  "float_rmax": 4,
+  "float_seeds": 2,
+  "full": false,
+  "grids": "8"
+ },
+ "checks": {
+  "certificates_K8": true,
+  "float_search": true,
+  "prop_singlestep": true,
+  "thresholds": true
+ },
+ "results": {
+  "certificates_K8": {
+   "grid_m": 4,
+   "min_margin": "7/512",
+   "min_margin_at": [
+    6,
+    7
+   ],
+   "not_certified": [],
+   "staircases": 120
+  },
+  "float_search": {
+   "grid": 20,
+   "max_violation": 0.0,
+   "runs": {
+    "1": [
+     [
+      0.0,
+      [
+       5
+      ]
+     ],
+     [
+      0.0,
+      [
+       5
+      ]
+     ]
+    ],
+    "2": [
+     [
+      0.0,
+      [
+       5,
+       20
+      ]
+     ],
+     [
+      0.0,
+      [
+       5,
+       20
+      ]
+     ]
+    ],
+    "3": [
+     [
+      0.0,
+      [
+       17,
+       17,
+       20
+      ]
+     ],
+     [
+      0.0,
+      [
+       5,
+       20,
+       20
+      ]
+     ]
+    ],
+    "4": [
+     [
+      -0.0804688,
+      [
+       4,
+       8,
+       12,
+       16
+      ]
+     ],
+     [
+      0.0,
+      [
+       5,
+       20,
+       20,
+       20
+      ]
+     ]
+    ]
+   }
+  },
+  "prop_singlestep": {
+   "closed_form": true,
+   "equality_cases": 180,
+   "etas": 239,
+   "facts_failures": []
+  }
+ }
+}

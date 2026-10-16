@@ -1,0 +1,31 @@
+{
+ "all_checks_passed": true,
+ "args": {
+  "full": false
+ },
+ "checks": {
+  "single_step_equality": true,
+  "sum_law": true,
+  "uniform_marginals": true
+ },
+ "results": {
+  "min_convex_order_gap": "0",
+  "sum_density": [
+   [
+    "1/2",
+    "3/4",
+    "2"
+   ],
+   [
+    "3/4",
+    "5/4",
+    "0"
+   ],
+   [
+    "5/4",
+    "3/2",
+    "2"
+   ]
+  ]
+ }
+}
