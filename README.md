@@ -1,7 +1,8 @@
 # Sums of two dependent uniform random variables: a characterization by joint tail bounds
 
 This is the computational artifact for the paper *Sums of two dependent uniform random variables: a characterization
-by joint tail bounds* (authors and citation: `CITATION.cff`). The paper determines which laws the sum of two
+by joint tail bounds* by P. Chaudhary and K. Khandelwal, arXiv:2610.24197 [math.PR], 2026
+(https://arxiv.org/abs/2610.24197; citation: `CITATION.cff`). The paper determines which laws the sum of two
 standard uniform random variables can have under unknown dependence, by joint tail-sum (staircase) inequalities. This
 archive holds code and data for every computational statement of the paper:
 
@@ -22,6 +23,14 @@ archive holds code and data for every computational statement of the paper:
 Every computational claim of the paper is listed in `CLAIM_EVIDENCE_MAP.md` with the script that checks it, its data
 file, the tier that reaches the stated range and its status (full stream verified / small range / index only / not
 checked). Results are cited by their printed numbers; numbers with the prefix S refer to the paper's supplementary material.
+
+## Identifiers
+
+- Cite this version (1.0.0): https://doi.org/10.5281/zenodo.23231387
+- All versions: https://doi.org/10.5281/zenodo.23231386
+- Preprint: arXiv:2610.24197, https://doi.org/10.48550/arXiv.2610.24197
+- Published version: not yet accepted
+- Repository: https://github.com/methodtrace/2026-two-uniform-sums, tag `v1.0.0`
 
 ## Requirements
 
